@@ -36,6 +36,7 @@ services:
     restart: unless-stopped
   pma:
     image: phpmyadmin/phpmyadmin
+    container_name: db_pma
     ports:
       - 8081:80
     restart: always
