@@ -44,7 +44,7 @@ services:
     environment:
       - PMA_HOST=bookstack_db
       - MYSQL_ROOT_PASSWORD=kjhbxwkjnbxwn8u9839282
-      - MYSQL_USER=root
+      - MYSQL_USER=bookstack
       - MYSQL_PASSWORD=kjhbxwkjnbxwn8u9839282
-      - PMA_USER=root
+      - PMA_USER=bookstack
       - PMA_PASSWORD=kjhbxwkjnbxwn8u9839282
